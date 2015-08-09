@@ -1,0 +1,51 @@
+body {
+	position: relative;
+}
+
+li {
+	padding-top: 5px;
+	padding-bottom: 6px;
+}
+
+.jumbotron {
+	background-color: rgba(21, 17, 32, 0.5);
+}
+
+.jumbotron h1,
+.jumbotron .slogan {
+	color: #fff;
+}
+
+.main-header {
+	background: url('../img/e-cigarrillos-1.jpg') no-repeat center;
+	background-size: cover;
+	height: 80vh;
+	margin-top: 50px;
+}
+
+#contact {
+	background: url('../img/contact_keyboard.jpg') no-repeat center;
+	background-size: cover;
+	height: 45vh;
+}
+
+@media only screen and (min-width: 480px) and (max-width: 991px) {
+	p.f-left {
+		width: 50%;
+		float: left;
+		padding: 15px;
+	}
+	p.f-right {
+		width: 50%;
+		float: right;
+		padding: 15px;
+	}
+}
+
+@media only screen and (min-width: 480px) and (max-width: 1025px) {
+	.main-header {
+		background: url('../img/e-cigarrillos-1.jpg') no-repeat center;
+		background-size: cover;
+		height: 80vh;
+	}
+}
