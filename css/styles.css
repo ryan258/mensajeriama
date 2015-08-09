@@ -16,18 +16,18 @@ li {
 	color: #fff;
 }
 
-.main-header {
+/*.main-header {
 	background: url('../img/e-cigarrillos-1.jpg') no-repeat center;
 	background-size: cover;
 	height: 80vh;
 	margin-top: 50px;
-}
+}*/
 
-#contact {
+/*#contact {
 	background: url('../img/contact_keyboard.jpg') no-repeat center;
 	background-size: cover;
 	height: 45vh;
-}
+}*/
 
 @media only screen and (min-width: 480px) and (max-width: 991px) {
 	p.f-left {
@@ -42,10 +42,10 @@ li {
 	}
 }
 
-@media only screen and (min-width: 480px) and (max-width: 1025px) {
+/*@media only screen and (min-width: 480px) and (max-width: 1025px) {
 	.main-header {
 		background: url('../img/e-cigarrillos-1.jpg') no-repeat center;
 		background-size: cover;
 		height: 80vh;
 	}
-}
+}*/
