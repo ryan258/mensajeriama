@@ -5,6 +5,9 @@ body {
 img {
 	max-width: 100%;
 }
+iframe {
+	margin-top: 60px;
+}
 /* Main Navigation */
 .navbar {
 	border-bottom: 5px solid #fff;
