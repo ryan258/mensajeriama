@@ -1,8 +1,14 @@
 body {
+	/*padding-top: 3.5em;*/
 	position: relative;
 }
-
+img {
+	max-width: 100%;
+}
 /* Main Navigation */
+.navbar {
+	border-bottom: 5px solid #fff;
+}
 
 .navbar-inverse {
 	background-image: -webkit-linear-gradient(top,#337ab7 0,#2e6da4 100%);
@@ -13,9 +19,53 @@ body {
   background-repeat: repeat-x;
 }
 
-.navbar-inverse .navbar-brand,
+.navbar-inverse .navbar-nav>.active>a, 
+.navbar-inverse .navbar-nav>.active>a:focus, 
+.navbar-inverse .navbar-nav>.active>a:hover {
+	color: #2e6da4;
+  background-color: #fff;
+  background-image: none;
+}
+
+.navbar-inverse .navbar-brand {
+	color: #000;
+	font-weight: bold;
+	font-style: italic;
+	background: #fff;
+}
+
+.navbar-inverse .navbar-brand a:hover,
 .navbar-inverse .navbar-nav>li>a {
-  color: yellow;
+  color: #ffef03;
+}
+
+@media only screen and (min-width: 768px) {
+	.navbar-nav>li>a {
+	  padding-top: 16px;
+	  padding-bottom: 15px;
+	}
+	.navbar-nav>li>a:hover {
+		background: #fff;
+	}
+}
+
+
+/** Scroll Spy **/
+@media only screen and (min-width: 768px) {
+
+	.collapse.navbar-collapse.navbar-scrollspy.affix,
+	.collapse.navbar-collapse.navbar-scrollspy.affix-top {
+		position: absolute;
+		right: 10px
+	}
+
+	.container {
+		padding-top: 61px;
+	}}
+
+	.main-header .container {
+
+	}
 }
 
 li {
